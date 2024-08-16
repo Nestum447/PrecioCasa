@@ -3,7 +3,7 @@ import pickle
 import numpy as np  
 
 # Cargar el modelo entrenado
-with open('2modelo_precio_casas.pkl', 'rb') as file:
+with open('modelo_precio_casas.pkl', 'rb') as file:
     model = pickle.load(file)
 
 st.title('Predicción de Precio de Casas NO DEJES QUE TIMEN ')
