@@ -6,7 +6,7 @@ import numpy as np
 with open('modelo_precio_casas.pkl', 'rb') as file:
     model = pickle.load(file)
 
-st.title('Carpio Predicción de Precio de Casas El Salvador ')
+st.title('Carpio Machine Learning Predicción de Precio de Casas El Salvador ')
 
 # Entradas de usuario
 tamaño = st.number_input('Tamaño de la casa (en metros cuadrados):', min_value=500, max_value=10000, value=1500)
